@@ -1,0 +1,8 @@
+package edu.fju;
+
+import java.util.ArrayList;
+
+public class Manager {
+ArrayList<Employee>employee = new ArrayList<>();
+employee.add(new Employee(Jacky,));
+}

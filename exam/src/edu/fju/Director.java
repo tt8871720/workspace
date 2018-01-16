@@ -1,0 +1,7 @@
+package edu.fju;
+
+public class Director extends Employee {
+public Director(){
+
+}
+}

@@ -1,0 +1,32 @@
+package edu.fju;
+
+public class Bubble {
+
+	public static void main(String[] args) {
+		int number1[] = {45,81,9,72,4,6};
+		int number2[] = {6,5,2,8,1,9,13,4,11,7};
+for (int i = 0; i <= 5; i++) {
+	for (int j = 0; j <=5; j++) {
+		if(number1[j] < number1[i]){
+			int tmp = number1[j];
+			number1[j] = number1[i];
+			number1[i] = tmp;
+			continue;}
+			
+	}
+}for (int k = 0; k <=5; k++) {
+	System.out.print(number1[k] + " ");
+	
+}for (int a = 0; a <= number2.length; a++) {
+	for (int b = 0; b <=number2.length; b++) {
+		if(number1[b] < number1[a]){
+			int tmp = number1[b];
+			number1[b] = number1[a];
+			number1[a] = tmp;
+			continue;}
+
+	}
+	}
+for (int c = 0; c <=number2.length; c++) {
+	System.out.print(number2[c] + " ");
+	}}}

@@ -1,0 +1,17 @@
+package edu.fju;
+
+import java.util.Scanner;
+
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		System.out.println("請輸入金額或英文");
+		Scanner scanner = new Scanner(System.in);
+String line = scanner.nextLine();
+switch(line){
+	
+}
+	}
+
+}

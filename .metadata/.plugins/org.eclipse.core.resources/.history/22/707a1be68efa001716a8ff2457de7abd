@@ -1,0 +1,25 @@
+package edu.fju;
+
+import java.util.Scanner;
+
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		int h = -1;
+		int p = 0;
+		System.out.println("請輸入金額或英文");
+		System.out.println("目前餘額: + p");
+		int n[] = {10,15,10,18,10,20,15,18};
+		
+		Scanner scanner = new Scanner(System.in);
+String line = scanner.nextLine();
+
+switch(line){
+case"a":
+	
+
+
+	}
+	}
+}
